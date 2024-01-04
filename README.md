@@ -1,5 +1,5 @@
 <h1>
-  Git-Github 
+  Git
   <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
 </h1> 
 <h3>Learning how to use git/github</h3> 
@@ -7,6 +7,8 @@
 
 
 `git init` */iniciar um projeto git/*
+
+`git clone` */clonar um projeto git/*
 
 `git add .` */para adicionar todos os arqs/*
 
