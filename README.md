@@ -28,7 +28,9 @@
 
 `git remote add origin link` */enviar para um link remoto/*
 
-`git push --set-upstream origin master` */enviar para uma branch/*
+`git branch --unset-upstream` */criar a branch em um reposiório existente/*
+
+`git push --set-upstream origin master` */enviar para uma branch master/*
 
 `git reflog` */ver as versões, a mais atual está no topo/*
 
