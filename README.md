@@ -2,10 +2,22 @@
   Git
   <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
 </h1> 
-<h3>Learning how to use git/github</h3> 
+<h3>Learning how to use git</h3> 
 <p>Os comandos a seguir são feitos no Git Bash.</p>
 
+----------------------------------------------------------------
+<h3>Starting a new projct by the command line example:</h3>
+<p>echo "# APIGemini" >> README.md</p>
+<p>git init</p>
+<p>git add README.md</p>
+<p>git commit -m "first commit"</p>
+<p>git branch -M main</p>
+<p>git remote add origin https://github.com/agu3des/APIGemini.git</p>
+<p>git push -u origin main</p>
 
+----------------------------------------------------------------
+
+<h3>All the commands</h3>
 `git init` */iniciar um projeto git/*
 
 `git clone` */clonar um projeto git/*
