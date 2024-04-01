@@ -7,26 +7,27 @@
 
 ----------------------------------------------------------------
 <h3>Starting a new projct by the command line example:</h3>
-<p>echo "# APIGemini" >> README.md</p>
+<p>echo "# Nome" >> README.md</p>
 <p>git init</p>
 <p>git add README.md</p>
 <p>git commit -m "first commit"</p>
 <p>git branch -M main</p>
-<p>git remote add origin https://github.com/agu3des/APIGemini.git</p>
+<p>git remote add origin https://github.com/user/repository.git</p>
 <p>git push -u origin main</p>
 
 ----------------------------------------------------------------
 
 <h3>All the commands</h3>
-`git init` */iniciar um projeto git/*
 
-`git clone` */clonar um projeto git/*
+`git clone link` */clonar um projeto git/*
+
+`git init` */iniciar um projeto git/*
 
 `git add .` */para adicionar todos os arqs/*
 
 `git add "meuCodigo.py"` */adicionar apenas um arq escolhido/*
 
-`git status` */ver o que ocorre/*
+`git status` */ver o que ocorre ou repositório/*
 
 `git commit` */adicionar/*
 
