@@ -19,6 +19,10 @@
 
 <h3>All the commands</h3>
 
+`git config --global user.name "Seu Nome"` */adicionar seu nome de usuário/*
+
+`git config --global user.email "seuemail@email.com"` */adicionar seu email de usuário/*
+
 `git clone link` */clonar um projeto git/*
 
 `git init` */iniciar um projeto git/*
@@ -33,9 +37,13 @@
 
 `git commit -m "commit 1"` */adicionar com uma mensagem/*
 
-`git config --global user.name "Seu Nome"` */adicionar seu nome de usuário/*
+`git diff` */linhas modificadas, vermelho(remove/altera) e verde(adiciona)/*
 
-`git config --global user.email "seuemail@email.com"` */adicionar seu email de usuário/*
+`git log` */histórico de commits/*
+
+`git restore nomearq` */ele volta para a versão anterior/*
+
+`git restore --staged nomearq` */ele volta para a versão anterior na área citada/*
 
 `git push` */enviar/*
 
