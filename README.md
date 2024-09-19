@@ -5,18 +5,17 @@
 <h3>Learning how to use git</h3> 
 <p>Os comandos a seguir são feitos no Git Bash.</p>
 
-----------------------------------------------------------------
-<h3>Starting a new projct by the command line example:</h3>
-<p>echo "# Nome" >> README.md</p>
-<p>git init</p>
-<p>git add README.md</p>
-<p>git commit -m "first commit"</p>
-<p>git branch -M main</p>
-<p>git remote add origin https://github.com/user/repository.git</p>
-<p>git push -u origin main</p>
 
-----------------------------------------------------------------
-
+```
+Starting a new projct by the command line example:
+echo "# Nome" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/user/repository.git
+git push -u origin main
+```
 <h3>All the commands</h3>
 
 `git config --global user.name "Seu Nome"` */adicionar seu nome de usuário/*
