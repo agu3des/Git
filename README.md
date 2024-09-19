@@ -68,3 +68,21 @@
 `git merge nome` */puxa de uma branch para a atual/*
 
 `touch .gitignore` */para que algum arquivo não seja enviado para nuvem - dentro desse arquivo são adicionadas as pastas ou arquivos que não devem ser enviados/*
+
+`git restore <arquivo>` */deseja desfazer as alterações antes de adicionar ao git/*
+
+`git restore .` */deseja desfazer todas as alterações antes de adicionar ao git/*
+
+`git rm --cached <arquivo>` */remover um ou mais arquivos do Git, mas mantê-los no seu sistema de arquivos/*
+
+`git rm -r --cached .` */remover todos os arquivos do Git, mas mantê-los no seu sistema de arquivos/*
+
+`git rm --cached .` */remover todos os arquivos não rastreados do Git, mas mantê-los no seu sistema de arquivos/*
+
+`git clean -n` */verificar quais arquivos serão removidos/*
+
+`git clean -f` */remova os arquivos não rastreados/*
+
+`git clean -fd` */remover diretórios não rastreados/*
+
+`git clean -fx` */para arquivos ignorados/*
