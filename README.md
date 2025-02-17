@@ -84,6 +84,9 @@ git push -u origin main
 `git chekout nome` 
 #muda de branch
 
+`git clone --branch NOME_DA_BRANCH --single-branch URL_DO_REPOSITORIO`
+#clona de uma branch específica
+
 `git pull` 
 #pegar as versões mais atuais
 

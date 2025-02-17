@@ -20,6 +20,7 @@ git reset --hard codigo
 git branch
 git branch nome
 git chekout nome
+git clone --branch NOME_DA_BRANCH --single-branch URL_DO_REPOSITORIO
 git pull
 git merge nome
 touch .gitignore
